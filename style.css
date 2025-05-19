@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse; width: 100%;
+    background-color: mistyrose;
+    width: 50%;
+    height: 60vh;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    margin: 1rem;
+}
+
+th, td {
+    border: 1px solid #ccc; padding: 8px;
+    text-align: center;
+    height: 1%;
+}
+
+th {
+    color: black;
+    padding: 1rem;
+}
