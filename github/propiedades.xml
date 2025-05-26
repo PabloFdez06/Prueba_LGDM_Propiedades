@@ -1,0 +1,46 @@
+<propiedades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="propiedades.xsd">
+
+    <propiedad>
+        <precioAlquiler>250000</precioAlquiler>
+
+        <localizacion>
+            <localidad>Cadiz</localidad>
+            <calle>Calle 1</calle>
+            <codigoPostal>1</codigoPostal>
+        </localizacion>
+
+        <metrosCuadrados>80</metrosCuadrados>
+        <anioConstruccion>2019</anioConstruccion>
+
+    </propiedad>
+
+    <propiedad>
+        <precioAlquiler>128000</precioAlquiler>
+
+        <localizacion>
+            <localidad>Sevilla</localidad>
+            <calle>Calle 2</calle>
+            <codigoPostal>2</codigoPostal>
+        </localizacion>
+
+        <metrosCuadrados>64</metrosCuadrados>
+        <anioConstruccion>1999</anioConstruccion>
+
+    </propiedad>
+
+    <propiedad>
+        <precioAlquiler>203000</precioAlquiler>
+
+        <localizacion>
+            <localidad>Albacete</localidad>
+            <calle>Calle 3</calle>
+            <codigoPostal>3</codigoPostal>
+        </localizacion>
+
+        <metrosCuadrados>75</metrosCuadrados>
+        <anioConstruccion>2015</anioConstruccion>
+
+    </propiedad>
+
+</propiedades>

@@ -1,0 +1,29 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="propiedades">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="propiedad" type="PropiedadType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="PropiedadType">
+        <xs:sequence>
+            <xs:element name="precioAlquiler" type="xs:int"/>
+            <xs:element name="localizacion" type="LocalizacionType"/>
+            <xs:element name="metrosCuadrados" type="xs:int"/>
+            <xs:element name="anioConstruccion" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="LocalizacionType">
+        <xs:sequence>
+            <xs:element name="localidad" type="xs:string"/>
+            <xs:element name="calle" type="xs:string"/>
+            <xs:element name="codigoPostal" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+</xs:schema>

@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Propiedades",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "precioAlquiler": {
+        "type": "integer"
+      },
+      "datosLocalizacion": {
+        "type": "object",
+        "properties": {
+          "localidad": {
+            "type": "string"
+          },
+          "calle": {
+            "type": "string"
+          },
+          "codigoPostal": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "localidad",
+          "calle",
+          "codigoPostal"
+        ]
+      },
+      "metrosCuadrados": {
+        "type": "integer"
+      },
+      "anioConstruccion": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "precioAlquiler",
+      "datosLocalizacion",
+      "metrosCuadrados",
+      "anioConstruccion"
+    ]
+  }
+}

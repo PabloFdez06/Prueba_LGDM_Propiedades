@@ -1,0 +1,32 @@
+[
+  {
+    "precioAlquiler": 250000,
+    "datosLocalizacion": {
+      "localidad": "Cadiz",
+      "calle": "Calle 1",
+      "codigoPostal": 1
+    },
+    "metrosCuadrados": 80,
+    "anioConstruccion": 2019
+  },
+  {
+    "precioAlquiler": 128000,
+    "datosLocalizacion": {
+      "localidad": "Sevilla",
+      "calle": "Calle 2",
+      "codigoPostal": 2
+    },
+    "metrosCuadrados": 64,
+    "anioConstruccion": 1999
+  },
+  {
+    "precioAlquiler": 203000,
+    "datosLocalizacion": {
+      "localidad": "Albacete",
+      "calle": "Calle 3",
+      "codigoPostal": 3
+    },
+    "metrosCuadrados": 75,
+    "anioConstruccion": 2015
+  }
+]
